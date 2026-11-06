@@ -1,0 +1,207 @@
+{
+  "scope": "read-only format and proper crossing checks; not proof of semantic completeness or geometric validity",
+  "samples": [
+    {
+      "image": "practice_001.png",
+      "errors": [],
+      "warnings": [],
+      "shapes": [
+        {
+          "shape_index_1based": 1,
+          "points": 54,
+          "area_shoelace_px2": 3331.31,
+          "proper_edge_crossings_1based": []
+        }
+      ],
+      "input_hashes": {
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_001.png": "b450b9ef07443ee85d8a7601b734e9939a90599c32c28881fdd736af07bebd91",
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_001.json": "91fb7eaebc73f001b5e313855ee7114a8a0eda2264be254c5e7e15a538d85df1"
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "image": "practice_002.png",
+      "errors": [],
+      "warnings": [],
+      "shapes": [
+        {
+          "shape_index_1based": 1,
+          "points": 20,
+          "area_shoelace_px2": 705.71,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 2,
+          "points": 57,
+          "area_shoelace_px2": 1380.11,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 3,
+          "points": 40,
+          "area_shoelace_px2": 1078.82,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 4,
+          "points": 14,
+          "area_shoelace_px2": 269.25,
+          "proper_edge_crossings_1based": []
+        }
+      ],
+      "input_hashes": {
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_002.png": "c9bef5a30413db82b546c7785e7b2ee9f477b5543a80ed5b124c903dff310cd7",
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_002.json": "2bc293987d25decc7df9402b313024b023d24409940b3ff29b816c92c5a1c3e0"
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "image": "practice_003.png",
+      "errors": [],
+      "warnings": [],
+      "shapes": [
+        {
+          "shape_index_1based": 1,
+          "points": 131,
+          "area_shoelace_px2": 5512.97,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 2,
+          "points": 39,
+          "area_shoelace_px2": 1200.05,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 3,
+          "points": 67,
+          "area_shoelace_px2": 1812.16,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 4,
+          "points": 59,
+          "area_shoelace_px2": 674.39,
+          "proper_edge_crossings_1based": []
+        }
+      ],
+      "input_hashes": {
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_003.png": "6a170c6a16918b88bd77ac6771a72ef41575b4b29a11f2745831cf97fc4ca41b",
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_003.json": "865339fc5e4cb6fd5a4dcc2b012e57d22c3f29275a8c1b240a9a776858c00dea"
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "image": "practice_004.png",
+      "errors": [],
+      "warnings": [
+        "shape_4_proper_edge_crossings:[[7, 10], [7, 11]]"
+      ],
+      "shapes": [
+        {
+          "shape_index_1based": 1,
+          "points": 161,
+          "area_shoelace_px2": 4659.81,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 2,
+          "points": 75,
+          "area_shoelace_px2": 1710.58,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 3,
+          "points": 24,
+          "area_shoelace_px2": 410.34,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 4,
+          "points": 61,
+          "area_shoelace_px2": 1479.08,
+          "proper_edge_crossings_1based": [
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ]
+          ]
+        },
+        {
+          "shape_index_1based": 5,
+          "points": 81,
+          "area_shoelace_px2": 1658.4,
+          "proper_edge_crossings_1based": []
+        }
+      ],
+      "input_hashes": {
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_004.png": "73c47bba3c2b38dd158e45624ff7394e71243d20803115943d000a2d4a3ec8d2",
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_004.json": "8ad687b3529231903cd8966d5faad9be9b0e79131c6dd4f280b88853857de28a"
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "image": "practice_005.png",
+      "errors": [],
+      "warnings": [
+        "shape_3_proper_edge_crossings:[[3, 21], [4, 21]]",
+        "shape_4_proper_edge_crossings:[[32, 66]]"
+      ],
+      "shapes": [
+        {
+          "shape_index_1based": 1,
+          "points": 72,
+          "area_shoelace_px2": 1148.14,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 2,
+          "points": 64,
+          "area_shoelace_px2": 1670.27,
+          "proper_edge_crossings_1based": []
+        },
+        {
+          "shape_index_1based": 3,
+          "points": 22,
+          "area_shoelace_px2": 167.32,
+          "proper_edge_crossings_1based": [
+            [
+              3,
+              21
+            ],
+            [
+              4,
+              21
+            ]
+          ]
+        },
+        {
+          "shape_index_1based": 4,
+          "points": 72,
+          "area_shoelace_px2": 711.59,
+          "proper_edge_crossings_1based": [
+            [
+              32,
+              66
+            ]
+          ]
+        },
+        {
+          "shape_index_1based": 5,
+          "points": 32,
+          "area_shoelace_px2": 329.7,
+          "proper_edge_crossings_1based": []
+        }
+      ],
+      "input_hashes": {
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_005.png": "8c53038a3b320915c11a5ede26889834b8e9ca6bd7857fa4eb8a089844fceaf9",
+        "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_005.json": "6a29f8d6724bcebfb0ab45599eed405e471f8edc05d4484bfbea084f66fd264f"
+      },
+      "inputs_unchanged": true
+    }
+  ]
+}

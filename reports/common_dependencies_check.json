@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Synthetic fixtures only, no course data",
+  "excel_in_memory": "passed",
+  "tfidf": "passed",
+  "jieba": "passed",
+  "sklearn_toy_fit": "passed",
+  "python": "D:\\Machine-learning\\.venv\\Scripts\\python.exe",
+  "user_site_enabled": false
+}

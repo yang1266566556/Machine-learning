@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "machine-learning-coursework"
+version = "0.1.0"
+description = "Shared environment and model helpers for the coursework project"
+requires-python = ">=3.12,<3.13"
+
+[tool.setuptools.packages.find]
+where = ["src"]

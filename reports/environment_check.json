@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-10-26T13:46:20.753858+00:00",
+  "status": "passed",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "executable": "D:\\Machine-learning\\.venv\\Scripts\\python.exe",
+  "scope": "Synthetic input checks only; not course training or a performance benchmark.",
+  "imports": [
+    "numpy",
+    "pandas",
+    "scipy",
+    "sklearn",
+    "imblearn",
+    "openpyxl",
+    "cv2",
+    "matplotlib",
+    "seaborn",
+    "jieba",
+    "nltk",
+    "tensorboard",
+    "ipykernel",
+    "jupyterlab",
+    "segmentation_models_pytorch",
+    "ultralytics"
+  ],
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "segmentation-models-pytorch": "0.5.0",
+    "ultralytics": "8.3.161",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cuda_runtime": "12.8",
+  "vram_gib": 8.0,
+  "cuda_matmul_and_nms": "passed",
+  "models": [
+    {
+      "model": "unet_resnet34",
+      "pretrained_weights_loaded": true,
+      "synthetic_backward_128": "passed",
+      "inference_512": "passed",
+      "parameters": 24436369,
+      "check_peak_allocated_mib": 249.0
+    },
+    {
+      "model": "yolo11n-seg",
+      "pretrained_weights_loaded": true,
+      "synthetic_backward_128": "passed",
+      "inference_512": "passed",
+      "parameters": 2876848,
+      "check_peak_allocated_mib": 69.4
+    },
+    {
+      "model": "yolo11s-seg",
+      "pretrained_weights_loaded": true,
+      "synthetic_backward_128": "passed",
+      "inference_512": "passed",
+      "parameters": 10113248,
+      "check_peak_allocated_mib": 128.3
+    }
+  ]
+}

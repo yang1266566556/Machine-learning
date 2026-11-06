@@ -1,0 +1,121 @@
+{
+  "input_sha256": {
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_001.png": "b450b9ef07443ee85d8a7601b734e9939a90599c32c28881fdd736af07bebd91",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_001.json": "ea73ca59d6d6f76a1053303d8f24d229cb695c53af4f550d5db36e18856ae6ec",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_002.png": "c9bef5a30413db82b546c7785e7b2ee9f477b5543a80ed5b124c903dff310cd7",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_002.json": "2bc293987d25decc7df9402b313024b023d24409940b3ff29b816c92c5a1c3e0",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_003.png": "6a170c6a16918b88bd77ac6771a72ef41575b4b29a11f2745831cf97fc4ca41b",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_003.json": "865339fc5e4cb6fd5a4dcc2b012e57d22c3f29275a8c1b240a9a776858c00dea",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_004.png": "73c47bba3c2b38dd158e45624ff7394e71243d20803115943d000a2d4a3ec8d2",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_004.json": "8ad687b3529231903cd8966d5faad9be9b0e79131c6dd4f280b88853857de28a",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_005.png": "8c53038a3b320915c11a5ede26889834b8e9ca6bd7857fa4eb8a089844fceaf9",
+    "D:\\Machine-learning\\data\\annotation_practice\\batch_01\\images\\practice_005.json": "6a29f8d6724bcebfb0ab45599eed405e471f8edc05d4484bfbea084f66fd264f"
+  },
+  "crossings": {
+    "practice_001": [],
+    "practice_002": [],
+    "practice_003": [],
+    "practice_004": [
+      {
+        "shape": 4,
+        "edge_starts_1based": [
+          7,
+          10
+        ],
+        "xy": [
+          247.33921683867536,
+          294.0990999888124
+        ]
+      },
+      {
+        "shape": 4,
+        "edge_starts_1based": [
+          7,
+          11
+        ],
+        "xy": [
+          250.6703973682651,
+          289.32440789640043
+        ]
+      }
+    ],
+    "practice_005": [
+      {
+        "shape": 3,
+        "edge_starts_1based": [
+          3,
+          21
+        ],
+        "xy": [
+          401.12421275083324,
+          12.043615193076825
+        ]
+      },
+      {
+        "shape": 3,
+        "edge_starts_1based": [
+          4,
+          21
+        ],
+        "xy": [
+          400.942700936059,
+          13.767977433432026
+        ]
+      },
+      {
+        "shape": 4,
+        "edge_starts_1based": [
+          32,
+          66
+        ],
+        "xy": [
+          401.7106246270004,
+          121.10026020036045
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "image": "practice_002.png",
+      "box_xyxy": [
+        330,
+        125,
+        430,
+        265
+      ],
+      "title": "A：002 连续纹理中间存在未覆盖区"
+    },
+    {
+      "image": "practice_003.png",
+      "box_xyxy": [
+        120,
+        0,
+        225,
+        120
+      ],
+      "title": "B：003 分支处轮廓偏宽，需收紧边界"
+    },
+    {
+      "image": "practice_004.png",
+      "box_xyxy": [
+        183,
+        230,
+        311,
+        358
+      ],
+      "title": "C：004 第 4 个轮廓边缘交叉"
+    },
+    {
+      "image": "practice_005.png",
+      "box_xyxy": [
+        337,
+        0,
+        465,
+        128
+      ],
+      "title": "D：005 第 3 个轮廓边缘交叉"
+    }
+  ],
+  "source_files_unchanged": true
+}

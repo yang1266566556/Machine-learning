@@ -1,0 +1,10 @@
+{
+  "sdk_name": "Python 3.12 (Machine-learning)",
+  "interpreter": "D:/Machine-learning/.venv/Scripts/python.exe",
+  "settings": "C:\\Users\\yang\\AppData\\Roaming\\JetBrains\\PyCharm2025.2\\options\\jdk.table.xml",
+  "backup": "C:\\Users\\yang\\AppData\\Roaming\\JetBrains\\PyCharm2025.2\\options\\jdk.table.xml.machine-learning-backup-20261026-210014",
+  "gui_verified": false,
+  "prior_sdk_entries_preserved": true,
+  "project_xml_validated": true,
+  "kernel_prefix": "D:/Machine-learning/.venv"
+}

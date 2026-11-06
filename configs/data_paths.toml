@@ -1,0 +1,12 @@
+# Read-only source data. Do not overwrite these files.
+[sources]
+course_root = 'D:\yangz\大三上\机器学习'
+lane_table = 'D:\yangz\大三上\机器学习\课程设计\基于机器学习的车道线检测失效类型预测数据集.xlsx'
+intent_table = 'D:\yangz\大三上\机器学习\课程设计\客服意图数据集.xlsx'
+bridge_images = 'D:\yangz\大三上\机器学习\课程设计\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\01_桥梁无人机原始大图'
+rdd_root = 'D:\yangz\大三上\机器学习\课程设计\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\02_RDD无人机图像'
+
+[project]
+processed_data = 'data/processed'
+model_weights = 'models/pretrained'
+outputs = 'runs'

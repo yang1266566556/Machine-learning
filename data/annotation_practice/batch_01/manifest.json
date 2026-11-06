@@ -1,0 +1,113 @@
+{
+  "purpose": "annotation practice only, not a training/validation/test split",
+  "coordinate_system": "decoded original pixels; origin top-left; right/bottom exclusive",
+  "source_unchanged_verified": true,
+  "saved_pixels_match_source_crops": true,
+  "samples": [
+    {
+      "image": "images/practice_001.png",
+      "sha256": "b450b9ef07443ee85d8a7601b734e9939a90599c32c28881fdd736af07bebd91",
+      "source_file": "D:\\yangz\\大三上\\机器学习\\课程设计\\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\\01_桥梁无人机原始大图\\DJI_20260416133602_0677_D.JPG",
+      "source_sha256": "20ed80b1a0fc1bf43d2b375e779691e133327a4e0ee5e3c9740c74a406c3b29e",
+      "source_size_wh": [
+        8064,
+        6048
+      ],
+      "crop_box_xyxy_exclusive": [
+        4200,
+        2100,
+        4712,
+        2612
+      ],
+      "resize": false,
+      "split": "practice_only",
+      "physical_section_group": null,
+      "label_status": "unlabeled_needs_human_review",
+      "note": "先练习中部细长纹理；白色标线不标为裂缝。"
+    },
+    {
+      "image": "images/practice_002.png",
+      "sha256": "c9bef5a30413db82b546c7785e7b2ee9f477b5543a80ed5b124c903dff310cd7",
+      "source_file": "D:\\yangz\\大三上\\机器学习\\课程设计\\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\\01_桥梁无人机原始大图\\DJI_20260416133602_0677_D.JPG",
+      "source_sha256": "20ed80b1a0fc1bf43d2b375e779691e133327a4e0ee5e3c9740c74a406c3b29e",
+      "source_size_wh": [
+        8064,
+        6048
+      ],
+      "crop_box_xyxy_exclusive": [
+        4500,
+        2900,
+        5012,
+        3412
+      ],
+      "resize": false,
+      "split": "practice_only",
+      "physical_section_group": null,
+      "label_status": "unlabeled_needs_human_review",
+      "note": "检查细裂缝与周围沥青纹理的区别。"
+    },
+    {
+      "image": "images/practice_003.png",
+      "sha256": "6a170c6a16918b88bd77ac6771a72ef41575b4b29a11f2745831cf97fc4ca41b",
+      "source_file": "D:\\yangz\\大三上\\机器学习\\课程设计\\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\\01_桥梁无人机原始大图\\DJI_20260416133602_0677_D.JPG",
+      "source_sha256": "20ed80b1a0fc1bf43d2b375e779691e133327a4e0ee5e3c9740c74a406c3b29e",
+      "source_size_wh": [
+        8064,
+        6048
+      ],
+      "crop_box_xyxy_exclusive": [
+        3400,
+        1900,
+        3912,
+        2412
+      ],
+      "resize": false,
+      "split": "practice_only",
+      "physical_section_group": null,
+      "label_status": "unlabeled_needs_human_review",
+      "note": "练习分支；较宽深色痕迹可能涉及修补，需人工审核。"
+    },
+    {
+      "image": "images/practice_004.png",
+      "sha256": "73c47bba3c2b38dd158e45624ff7394e71243d20803115943d000a2d4a3ec8d2",
+      "source_file": "D:\\yangz\\大三上\\机器学习\\课程设计\\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\\01_桥梁无人机原始大图\\DJI_20260416133602_0677_D.JPG",
+      "source_sha256": "20ed80b1a0fc1bf43d2b375e779691e133327a4e0ee5e3c9740c74a406c3b29e",
+      "source_size_wh": [
+        8064,
+        6048
+      ],
+      "crop_box_xyxy_exclusive": [
+        3600,
+        4000,
+        4112,
+        4512
+      ],
+      "resize": false,
+      "split": "practice_only",
+      "physical_section_group": null,
+      "label_status": "unlabeled_needs_human_review",
+      "note": "练习多条目标；黄色标线不标为裂缝。"
+    },
+    {
+      "image": "images/practice_005.png",
+      "sha256": "8c53038a3b320915c11a5ede26889834b8e9ca6bd7857fa4eb8a089844fceaf9",
+      "source_file": "D:\\yangz\\大三上\\机器学习\\课程设计\\题目二：基于深度学习的无人机桥梁裂缝视觉识别数据集\\01_桥梁无人机原始大图\\DJI_20260416133602_0677_D.JPG",
+      "source_sha256": "20ed80b1a0fc1bf43d2b375e779691e133327a4e0ee5e3c9740c74a406c3b29e",
+      "source_size_wh": [
+        8064,
+        6048
+      ],
+      "crop_box_xyxy_exclusive": [
+        4200,
+        4200,
+        4712,
+        4712
+      ],
+      "resize": false,
+      "split": "practice_only",
+      "physical_section_group": null,
+      "label_status": "unlabeled_needs_human_review",
+      "note": "练习标线附近的裂缝；不推测被标线遮挡的部分。"
+    }
+  ]
+}

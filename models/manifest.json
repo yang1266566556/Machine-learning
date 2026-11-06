@@ -1,0 +1,20 @@
+[
+  {
+    "file": "resnet34-b627a593.pth",
+    "source": "https://download.pytorch.org/models/resnet34-b627a593.pth",
+    "bytes": 87319819,
+    "sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+  },
+  {
+    "file": "yolo11n-seg.pt",
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n-seg.pt",
+    "bytes": 6182636,
+    "sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152"
+  },
+  {
+    "file": "yolo11s-seg.pt",
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s-seg.pt",
+    "bytes": 20669228,
+    "sha256": "1caa81c0195412efa411b632bcfb8c184939dddb6ae41f6a80c41b211ff257c3"
+  }
+]

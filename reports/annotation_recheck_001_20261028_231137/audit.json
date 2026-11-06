@@ -1,0 +1,44 @@
+{
+  "imagePath": "practice_001.png",
+  "size": [
+    512,
+    512
+  ],
+  "json_changed": true,
+  "png_unchanged": true,
+  "shapes": [
+    {
+      "index": 1,
+      "label": "crack",
+      "type": "polygon",
+      "vertices": 54,
+      "out_of_bounds": false,
+      "proper_crossings": []
+    },
+    {
+      "index": 2,
+      "label": "crack",
+      "type": "polygon",
+      "vertices": 11,
+      "out_of_bounds": false,
+      "proper_crossings": []
+    },
+    {
+      "index": 3,
+      "label": "crack",
+      "type": "polygon",
+      "vertices": 12,
+      "out_of_bounds": false,
+      "proper_crossings": []
+    },
+    {
+      "index": 4,
+      "label": "crack",
+      "type": "polygon",
+      "vertices": 225,
+      "out_of_bounds": false,
+      "proper_crossings": []
+    }
+  ],
+  "json_sha256": "ea73ca59d6d6f76a1053303d8f24d229cb695c53af4f550d5db36e18856ae6ec"
+}
